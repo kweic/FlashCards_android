@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#979797</color>
+
+    <color name="withQuestionBackground">#3a3a51</color>
+    <color name="blankTextBackground">#1b202d</color>
+    <color name="appBackground">#000000</color>
+    <color name="inactiveButton">#2e2c2b</color>
+    <color name="activeButton">#787470</color>
+</resources>

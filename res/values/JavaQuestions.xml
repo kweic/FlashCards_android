@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="JavaQuestions">
+        <item name="0">What is a non-static variable / method?</item>
+        <item name="1">a variable / method that belongs to a specific instance of a class, also called instance variable / method</item>
+        <item name="2">-4</item>
+        <item name="3">When might you use import static?</item>
+        <item name="4">use this to define a set of constants when an interface is not really appropriate</item>
+        <item name="5">-3</item>
+        <item name="6">How to write a for-each loop?</item>
+        <item name="7">for(type item : anArray) { body; }</item>
+        <item name="8">-2</item>
+        <item name="9">Where is a reference variable holding its reference?</item>
+        <item name="10">This is held in the heap.</item>
+        <item name="11">-2</item>
+        <item name="12">Three reasons to use Methods?</item>
+        <item name="13">Divide and conquer, Avoid repeating code, software reuse</item>
+        <item name="14">-2</item>
+        <item name="15">Three of the many benefits of OOP.</item>
+        <item name="16">Ease in software design, Ease in maintenance(easier to understand and debug), Resusable software(reuse fully tested and proven codes)</item>
+        <item name="17">-2</item>
+        <item name="18">Why divide and conquer?</item>
+        <item name="19">Modularize the program into self contained tasks, keep it simple</item>
+        <item name="20">-2</item>
+        <item name="21">The two ways to reference a class in your source code.</item>
+        <item name="22">fully-qualified name AND import fully-qualified-name</item>
+        <item name="23">-2</item>
+        <item name="24">How to write a conditional Operator (? :)</item>
+        <item name="25">variable = booleanExpression ? trueExpression : falseExpression</item>
+        <item name="26">-1</item>
+        <item name="27">Program to the Interface, not to this.</item>
+        <item name="28">Program to this "" not the implementation.</item>
+        <item name="29">-1</item>
+        <item name="30">What class can be used to format numbers and currencies for different locales (into string)?</item>
+        <item name="31">Use the tools of NumberFormat for this.</item>
+        <item name="32">-1</item>
+        <item name="33">What must MouseEvent implement?</item>
+        <item name="34">this must implement MouseListener or MouseMotionListener(for motion)</item>
+        <item name="35">-1</item>
+        <item name="36">When might you want to use a wrapper class over the primitive type?</item>
+        <item name="37">Use if you need the primitive to be an object, such as Collections or if you don\'t want to initialize to 0 (uses null)</item>
+        <item name="38">-1</item>
+        <item name="39">What is the instantiation process? (JVM sequence of 7 events)</item>
+        <item name="40">allocate mem., init variables, invoke constructor, call super const., initializers, constructor body, returns reference</item>
+        <item name="41">-1</item>
+        <item name="42">UML Notation of interface to subclasses</item>
+        <item name="43">this is marked with a dash-arrow from subclasses</item>
+        <item name="44">-1</item>
+        <item name="45">What is it called when a method affects values outside the method itself?</item>
+        <item name="46">This is called "side-effect" and should be avoided if feasible.</item>
+        <item name="47">-1</item>
+        <item name="48">How to print integer in a specific amount of spaces with printf()</item>
+        <item name="49">%2d // where 2 is number of spaces</item>
+        <item name="50">-1</item>
+        <item name="51">What is downcasting?</item>
+        <item name="52">revert a substituted instance back to a subclass reference.</item>
+        <item name="53">-1</item>
+        <item name="54">What does java.util contain?</item>
+        <item name="55">contains utilities such as Scanner, Random, Date, ArrayList...</item>
+        <item name="56">-1</item>
+        <item name="57">How to make a unicode number escape sequence?</item>
+        <item name="58">\u000a (newline), \u000DH (carriage return) for example</item>
+        <item name="59">-1</item>
+        <item name="60">What is a protected access control modifier?</item>
+        <item name="61">this means available to all classes in the same package and the subclasses derived from it.</item>
+        <item name="62">-1</item>
+        <item name="63">What is a Public (class/variable/method)</item>
+        <item name="64">This is accessible and available to all the other objects in the system</item>
+        <item name="65">-1</item>
+        <item name="66">Logical AND</item>
+        <item name="67">&amp;&amp;</item>
+        <item name="68">0</item>
+        <item name="69">What can be used to extract comments to a Javadoc?</item>
+        <item name="70">JDK utility javadoc can be used to do this.</item>
+        <item name="71">-1</item>
+        <item name="72">What is a default access control modifier?</item>
+        <item name="73">this means available to classes in the same package only.</item>
+        <item name="74">-1</item>
+        <item name="75">an interface contains only these.</item>
+        <item name="76">public abstract methods and possibly constants(public static final variables) contained by this</item>
+        <item name="77">-1</item>
+        <item name="78">Late-Binding / dynamic binding supports polymorphism but poses this problem.</item>
+        <item name="79">The compiler is unable to check whether the type casting operator is safe and can only check at runtime.</item>
+        <item name="80">-1</item>
+        <item name="81">A class that is composed purely of public static variables and methods</item>
+        <item name="82">java.lang.Math is composed entirely of these</item>
+        <item name="83">-1</item>
+        <item name="84">This is the type of binding used by a procedural Language like C</item>
+        <item name="85">static binding (or early binding) used by this type of language, to resolve a call to an absolute address of the code</item>
+        <item name="86">-1</item>
+        <item name="87">What does the JVM\'s class loader instantiate to maintain a loaded class?</item>
+        <item name="88">a java.lang.Class is instantiated to do this.</item>
+        <item name="89">0</item>
+        <item name="90">Difference between object and class?</item>
+        <item name="91">object is instance of a class, objects have a lifespan, object is specific embodiment of that class</item>
+        <item name="92">0</item>
+        <item name="93">What would the final modifier on a class / method do to binding?</item>
+        <item name="94">This would turn off late binding, preventing polymorphism.</item>
+        <item name="95">0</item>
+        <item name="96">Why might you not want to use Protected variables?</item>
+        <item name="97">These may cause undue coupling between derived classes.</item>
+        <item name="98">0</item>
+        <item name="99">When might you use a private constructor?</item>
+        <item name="100">Use this when making an instance of the class wouldn\'t make sense, eg. having all static members.</item>
+        <item name="101">0</item>
+        <item name="102">Why would a private constructor be good for an inner class?</item>
+        <item name="103">If you only want objects to be created internally (only in your class) use this.</item>
+        <item name="104">0</item>
+        <item name="105">What is a non abstract class called?</item>
+        <item name="106">This is called a concrete class.</item>
+        <item name="107">0</item>
+        <item name="108">What are pointers? (Java doesn\'t have these)</item>
+        <item name="109">These store a memory address or a variable that stores a memory address. Passing them into a fuction passes the stored value.</item>
+        <item name="110">0</item>
+        <item name="111">class B implements A, is class B an instanceof A?</item>
+        <item name="112">This would make a subclass an instance of the interface.</item>
+        <item name="113">0</item>
+        <item name="114">What is the difference between primitive type and a class type?</item>
+        <item name="115">One stores the value, the other stores the address of the object, not values contained. Class can share same reference.</item>
+        <item name="116">0</item>
+        <item name="117">Why would passing an array (pass-by-value) enable the method to change elements in the array?</item>
+        <item name="118">This would share the memory location of stored values and enable those values to be changed.</item>
+        <item name="119">0</item>
+        <item name="120">What kind of exception would be thrown 1 / 0?</item>
+        <item name="121">This would throw an ArithmeticException.</item>
+        <item name="122">0</item>
+        <item name="123">What would "Synchronized" mean?</item>
+        <item name="124">This means when 2 or more threads are active, prevent others from accessing methods before one thread finishes.</item>
+        <item name="125">0</item>
+        <item name="126">How to make a class Serializable?</item>
+        <item name="127">implements java.io.Serializable</item>
+        <item name="128">0</item>
+        <item name="129">What is the difference between an interface and an abstract class?</item>
+        <item name="130">Interfaces: can have multiple, no implementation. Abstract class: only one, can contain data members and methods.</item>
+        <item name="131">0</item>
+        <item name="132">Java can\'t do multiple inheritance, what might you do instead?</item>
+        <item name="133">May use multiple interfaces because this is not available.</item>
+        <item name="134">0</item>
+        <item name="135">What does it mean if a class is serializable?</item>
+        <item name="136">Implementing this interface means that any object of the class can be converted to bits for write or transfer.</item>
+        <item name="137">0</item>
+        <item name="138">Why might you use a copy constructor?</item>
+        <item name="139">Use this to prevent someone from being able to modify a private variable.</item>
+        <item name="140">0</item>
+        <item name="141">Default accessibility is also known as..</item>
+        <item name="142">known as package or friendly accessibility.</item>
+        <item name="143">0</item>
+        <item name="144">What are some uses for a static variable / method?</item>
+        <item name="145">some uses of this are counting number of instances, resource locking among instances, etc.</item>
+        <item name="146">0</item>
+        <item name="147">Five things packages are used for.</item>
+        <item name="148">Organizing classes and related, Managing namespaces, Resolving naming conflicts, Access control, Distributing Java classes (as JAR)</item>
+        <item name="149">0</item>
+        <item name="150">Name for reusing a class when there is a "has-a" relationship.</item>
+        <item name="151">Composition exibits this type of relationship.</item>
+        <item name="152">0</item>
+        <item name="153">How to accept input from a dialog box?</item>
+        <item name="154">radius = JOptionPane.showInputDialog("Enter radius");</item>
+        <item name="155">0</item>
+        <item name="156">Why use a setter method?</item>
+        <item name="157">Use this method to provide data validation or transform raw data into an internal representation.</item>
+        <item name="158">0</item>
+        <item name="159">When to use abstract superclass over Interface</item>
+        <item name="160">use this when there is a clear class hierarchy over Interface</item>
+        <item name="161">0</item>
+        <item name="162">What is a wrapper class?</item>
+        <item name="163">These hold primitive values into objects and contain a private member variable that holds this value.</item>
+        <item name="164">0</item>
+        <item name="165">How might you let a method modify the caller\'s copy of a primitive type?</item>
+        <item name="166">pass the primitive parameter as a one-element array to accomplish this.</item>
+        <item name="167">0</item>
+        <item name="168">What can be used to parse an input string to a number from a specific locale?</item>
+        <item name="169">public Number parse(String source) throws ParseException, of NumberFormat class</item>
+        <item name="170">0</item>
+        <item name="171">What is "step out" for tracing method invocation?</item>
+        <item name="172">complete the current method and return to the caller</item>
+        <item name="173">0</item>
+        <item name="174">What is an abstract method?</item>
+        <item name="175">A method with only signature, method name, list of arguments and return type without body.</item>
+        <item name="176">0</item>
+        <item name="177">How is variable hiding done?</item>
+        <item name="178">when a class defines a variable of the same name.</item>
+        <item name="179">0</item>
+        <item name="180">What does the binary operator "instanceof" do?</item>
+        <item name="181">returns true if an object is an instance of a particular class.</item>
+        <item name="182">0</item>
+        <item name="183">Why might you opt for an iterative solution over recursion?</item>
+        <item name="184">This can consume stack space which may influence your approach.</item>
+        <item name="185">0</item>
+        <item name="186">Define an abstract class.</item>
+        <item name="187">A class containing one or more abstract methods. Must be declared with a class-modifier abstract</item>
+        <item name="188">0</item>
+        <item name="189">What does java.lang contain?</item>
+        <item name="190">contains classes that are core to the language itself (eg String, Math, Object)</item>
+        <item name="191">0</item>
+        <item name="192">What does immutable mean when they say String is immutable?</item>
+        <item name="193">this means content cannot be modified once it is created.</item>
+        <item name="194">0</item>
+        <item name="195">UML stands for.</item>
+        <item name="196">Abbreviation for Unified Modeling Language</item>
+        <item name="197">0</item>
+        <item name="198">What does "coupling" refer to?</item>
+        <item name="199">this refers to the degree to which one class relies on knowledge of the internals of another class.</item>
+        <item name="200">0</item>
+        <item name="201">Why software reuse through using methods?</item>
+        <item name="202">lets you reuse easily by packaging them into library codes</item>
+        <item name="203">0</item>
+        <item name="204">What are the 3 classes of programming errors?</item>
+        <item name="205">Compilation error (or syntax error), Runtime error, Logical Error</item>
+        <item name="206">0</item>
+        <item name="207">Why might you want to keep program documentation inside the source file?</item>
+        <item name="208">This helps keep documentation in sync with the project and write them as you write the program</item>
+        <item name="209">0</item>
+        <item name="210">Why would you use bitshifting?</item>
+        <item name="211">This is extremely easy and fast for computers to do, using it in your program can reduce memory usage and execution time.</item>
+        <item name="212">0</item>
+        <item name="213">High cohesion is associated with?</item>
+        <item name="214">associated with loose coupling because this class has fewer interactions with other classes.</item>
+        <item name="215">0</item>
+        <item name="216">What is a short?</item>
+        <item name="217">16-bit signed integer The range is [-2^15, 2^15-1] = [-32768, 32767]</item>
+        <item name="218">0</item>
+        <item name="219">This is the type of binding that object-oriented languages use to support polymorphism.</item>
+        <item name="220">dynamic binding (or late-binding or run-time binding) is used by this type of language</item>
+        <item name="221">0</item>
+        <item name="222">What does every JVM have that loads the bytecode of a class file into memory?</item>
+        <item name="223">A class loader does this, java.lang.Classloader.</item>
+        <item name="224">0</item>
+        <item name="225">This is the package naming convention.</item>
+        <item name="226">this name is made up of the reverse of the domain name plus your own project name separated by dots 123name.example.com (com.example._123name)</item>
+        <item name="227">0</item>
+        <item name="228">What part of Java runs a program?</item>
+        <item name="229">The JRE does this (Java Runtime Environment)</item>
+        <item name="230">0</item>
+        <item name="231">Java\'s three types of variables of different lifetimes:</item>
+        <item name="232">Local variable, Instance variable, Class variable</item>
+        <item name="233">0</item>
+        <item name="234">How does BitWise NOT work?</item>
+        <item name="235">This makes bits that are 0 become 1 and 1 become 0.</item>
+        <item name="236">0</item>
+        <item name="237">How does BitWise AND work?</item>
+        <item name="238">This multiplies bits, 1*1=1, 1*0=0, 0*0=0</item>
+        <item name="239">0</item>
+        <item name="240">How does Bitwise OR work?</item>
+        <item name="241">If both bit positions are 0, position is 0, otherwise result is 1</item>
+        <item name="242">0</item>
+        <item name="243">How does Bitwise XOR work?</item>
+        <item name="244">Bit position is 1 if only 1 position is 1, 0 if both are 0 or both 1</item>
+        <item name="245">0</item>
+        <item name="246">What does memory leak mean?</item>
+        <item name="247">when dead objects pile-up and consume all the available storage.</item>
+        <item name="248">0</item>
+        <item name="249">Because of the immutable nature of a String object what is a better way to do frequent modifications?</item>
+        <item name="250">Using StringBuffer or StringBuilder classes to do this.</item>
+        <item name="251">0</item>
+        <item name="252">What is a nested class?</item>
+        <item name="253">This is a class defined inside another class.</item>
+        <item name="254">0</item>
+        <item name="255">What kind of class can only be accessible by the enclosing outer class?</item>
+        <item name="256">A private nested class can only be accessible by this.</item>
+        <item name="257">0</item>
+        <item name="258">What would an inner class without a name be called?</item>
+        <item name="259">this would be called an anonymous inner class.</item>
+        <item name="260">0</item>
+        <item name="261">What is a java interface?</item>
+        <item name="262">this is a 100% abstract superclass which define a set of methods its subclasses must support</item>
+        <item name="263">0</item>
+        <item name="264">Traditional procedural languages like C and pascal do this which make them harder to use.</item>
+        <item name="265">These force you to think in terms of structure of the computer, such as memory bits, bytes, array, loop. Rather than the problem at hand.</item>
+        <item name="266">0</item>
+        <item name="267">Where do primitive types such as int and double hold their values?</item>
+        <item name="268">These hold values in the program stack.</item>
+        <item name="269">0</item>
+        <item name="270">Why is a "dafault unnamed package" no good for "real" programs?</item>
+        <item name="271">These cannot be "imported" into another application and so are not recommended.</item>
+        <item name="272">0</item>
+        <item name="273">Late-Binding does this.</item>
+        <item name="274">When a message is sent to an object to invoke a method, the object figures out which piece to execute at run-time</item>
+        <item name="275">0</item>
+        <item name="276">Java Runtime runs this</item>
+        <item name="277">compiled bytecode is run by this</item>
+        <item name="278">0</item>
+        <item name="279">What is an int?</item>
+        <item name="280">32-bit signed integer The range is [-2^31, 2^31-1] = [-2147483648, 2147483647]</item>
+        <item name="281">0</item>
+        <item name="282">What is a double?</item>
+        <item name="283">64-bit double precision floating-point number</item>
+        <item name="284">0</item>
+        <item name="285">What does "strongly type" language mean?</item>
+        <item name="286">A variable is declared with a type, once the variable type is declared it can only store values of that type.</item>
+        <item name="287">0</item>
+        <item name="288">a new line in windows</item>
+        <item name="289">"'/r'/n"</item>
+        <item name="290">0</item>
+        <item name="291">Where does the garbage collector run?</item>
+        <item name="292">this runs in a low priority thread to release memory.</item>
+        <item name="293">0</item>
+        <item name="294">Why are classes in OOP often organized in heirarchy?</item>
+        <item name="295">This is done to avoid duplication and reduce redundancy of classes.</item>
+        <item name="296">0</item>
+        <item name="297">The locations of source files and class files.</item>
+        <item name="298">What is "src" and "bin"?</item>
+        <item name="299">1</item>
+        <item name="300">Try, Finally, will finally always run?</item>
+        <item name="301">Finally will always run, even after this.</item>
+        <item name="302">1</item>
+        <item name="303">JAR stands for this</item>
+        <item name="304">abbreviation of Java Archive</item>
+        <item name="305">1</item>
+        <item name="306">What is upcasting?</item>
+        <item name="307">substituting a subclass instance for its superclass, </item>
+        <item name="308">1</item>
+        <item name="309">These are 4 bitwise operators.</item>
+        <item name="310">~ (NOT), &amp; (AND), ^ (XOR), | (OR)</item>
+        <item name="311">1</item>
+        <item name="312">define invoke, invocation</item>
+        <item name="313">"to activate" same as call</item>
+        <item name="314">1</item>
+        <item name="315">What is a case where using a named inner class would be ideal.</item>
+        <item name="316">this class is ideal in an event-driven environment where the methods often require access to the private variables of the outer class</item>
+        <item name="317">1</item>
+        <item name="318">What must KeyEvent implement?</item>
+        <item name="319">this must implement KeyListener.</item>
+        <item name="320">1</item>
+        <item name="321">A useful class to format dates.</item>
+        <item name="322">use java.text.DateFormat for this.</item>
+        <item name="323">1</item>
+        <item name="324">How to allocate for the array?</item>
+        <item name="325">marks = new int[5];</item>
+        <item name="326">1</item>
+        <item name="327">How to derive a subclass from a superclass in polymorphism.</item>
+        <item name="328">Use "extends" in the subclass on the superclass.</item>
+        <item name="329">1</item>
+        <item name="330">What does interface provide?</item>
+        <item name="331">this provides a form, protocol, standard, a set of rules for all objects that implement it.</item>
+        <item name="332">1</item>
+        <item name="333">What is secure coding?</item>
+        <item name="334">To check for arithmetic overflow.</item>
+        <item name="335">1</item>
+        <item name="336">What is a static initializer?</item>
+        <item name="337">This is a block of codes labeled as static that is executed exactly once when the class is loaded.</item>
+        <item name="338">1</item>
+        <item name="339">What is Java\'s main(String[] args) method?</item>
+        <item name="340">This is for command-line arguments, arguments provided by the user when the java program is invoked.</item>
+        <item name="341">1</item>
+        <item name="342">How to compile classes in a package (outside of IDE)</item>
+        <item name="343">> javac -d e:\\myproject PackageName.java</item>
+        <item name="344">1</item>
+        <item name="345">How to print a string in specific number of spaces.</item>
+        <item name="346">%2s where 2 is the number of spaces</item>
+        <item name="347">1</item>
+        <item name="348">What is Cohesion?</item>
+        <item name="349">this refers to the degree to which a class or method resists being broken down into smaller pieces.</item>
+        <item name="350">1</item>
+        <item name="351">opposite of a final which cannot be extended</item>
+        <item name="352">abstract is opposite of this and mush be extended</item>
+        <item name="353">1</item>
+        <item name="357">What does Implicit type-casting for a Method\'s Parameters mean?</item>
+        <item name="358">a method that takes a double parameter can accept any numeric primitive type, such as int or float</item>
+        <item name="359">1</item>
+        <item name="360">What does the keyword "super" do?</item>
+        <item name="361">this keyword allows the subclass to access above\'s methods and variables</item>
+        <item name="362">1</item>
+        <item name="363">UML notation of static variable / methods</item>
+        <item name="364">these are underlined in a class diagram</item>
+        <item name="365">1</item>
+        <item name="366">What can you use to test whether to design the classes using inheritance or composition?</item>
+        <item name="367">use "is-a" and "has-a" to test this.</item>
+        <item name="368">1</item>
+        <item name="369">What is a runtime error?</item>
+        <item name="370">program halts pre-maturely without producing the results</item>
+        <item name="371">1</item>
+        <item name="372">Why do strings need to be immutable? (unchangeable)</item>
+        <item name="373">These share storage with other identical ones so changing one would effect them all.</item>
+        <item name="374">1</item>
+        <item name="375">Define Polymorphism</item>
+        <item name="376">From Greek origin meaning "many forms"</item>
+        <item name="377">1</item>
+        <item name="378">Another way to terminate the program besides System.exit</item>
+        <item name="379">use return; //in a main method</item>
+        <item name="380">1</item>
+        <item name="381">The keyword "static" which was inherited from C/C++, denotes this.</item>
+        <item name="382">Denotes that a certain variable retains its value instead of re-initializes.</item>
+        <item name="383">1</item>
+        <item name="384">Builds the source</item>
+        <item name="385">Java Compiler(Javac)</item>
+        <item name="386">1</item>
+        <item name="387">What is a literal?</item>
+        <item name="388">a specific constant value, such as -123, -456, "Hello", used in source, assigned directly to variable.</item>
+        <item name="389">1</item>
+        <item name="390">packages represented this way in UML notation</item>
+        <item name="391">these are represented as tabbed folders here.</item>
+        <item name="392">1</item>
+        <item name="393">What would a left shifting bit manipulation do?</item>
+        <item name="394">This would be equivalent to multiplying by powers of 2</item>
+        <item name="395">1</item>
+        <item name="396">How to write the first "main" line of a java program.</item>
+        <item name="397">public static void main(String[] args){</item>
+        <item name="398">1</item>
+        <item name="399">Why is information hiding good?</item>
+        <item name="400">users are not aware, and don\t need to be aware of how data is stored internally.</item>
+        <item name="401">1</item>
+        <item name="402">Why is "tight-coupling" undesirable?</item>
+        <item name="403">this is undesirable because if one class changes its internal representations, all the other classes need to be rewritten</item>
+        <item name="404">1</item>
+        <item name="405">How would you add an anonymous identifier to a UI component (can\'t reference it later)?</item>
+        <item name="406">add(new Label("Label Name", alignment)); //create it without declaring</item>
+        <item name="407">1</item>
+        <item name="408">What is "pass-by-value" ?</item>
+        <item name="409">this is a term for passing a cloned value into a method where it does not have access to the original copy.</item>
+        <item name="410">1</item>
+        <item name="411">Why avoid repeating codes?</item>
+        <item name="412">makes it hard to maintain and synchronize copies of code</item>
+        <item name="413">1</item>
+        <item name="414">What is a float?</item>
+        <item name="415">32-bit single precision floating-point number</item>
+        <item name="416">1</item>
+        <item name="417">A static variable / method has this type of memory location.</item>
+        <item name="418">this has a common memory location, kept and shared by all the instances.</item>
+        <item name="419">1</item>
+        <item name="420">What is an instance?</item>
+        <item name="421">This is an instantiation of a particular item of a class.</item>
+        <item name="422">1</item>
+        <item name="423">Of what type are arrays and objects?</item>
+        <item name="424">these are reference type.</item>
+        <item name="425">1</item>
+        <item name="426">What are some pitfalls of Java?</item>
+        <item name="427">Garbage collector consumes resources and may result in inconsistent rate of execution.</item>
+        <item name="428">1</item>
+        <item name="429">This permits higher level of abstraction for solving real-life problems.</item>
+        <item name="430">OOP languages do this.</item>
+        <item name="431">1</item>
+        <item name="432">What is Substitutability?</item>
+        <item name="433">When a subclass object can do whatever its superclass can do, meaning we can substitute a subclass when superclass is expected.</item>
+        <item name="434">1</item>
+        <item name="435">Characters not allowed in an Identifier</item>
+        <item name="436">White space, and special characters such as (+,-,*,\/,@,&amp;, commas, etc)</item>
+        <item name="437">1</item>
+        <item name="438">How to exit the current innermost loop</item>
+        <item name="439">use break; to do this</item>
+        <item name="440">1</item>
+        <item name="441">Use of a method, name 3 parts.</item>
+        <item name="442">receives arguments passed by caller, performs operations defined in body, returns result to caller (arguments, caller, return)</item>
+        <item name="443">1</item>
+        <item name="444">Why are primitives stored in the call stack?</item>
+        <item name="445">These require less storage spaces and are cheaper to manipulate here.</item>
+        <item name="446">1</item>
+        <item name="447">The steps to solve a problem are called this.</item>
+        <item name="448">An Algorithm.</item>
+        <item name="449">1</item>
+        <item name="450">Main requirement of polymorphism.</item>
+        <item name="451">all the subclasses possess the properties of its superclass</item>
+        <item name="452">1</item>
+        <item name="453">How many primitive types are in Java?</item>
+        <item name="454">8 of these types are in java.</item>
+        <item name="455">1</item>
+        <item name="456">How to do exponents in Java?</item>
+        <item name="457">Math.exp(x, y), "x raises to the power of y"</item>
+        <item name="458">1</item>
+        <item name="459">Something every well designed Java class should have.</item>
+        <item name="460">should have a toString() method.</item>
+        <item name="461">1</item>
+        <item name="462">What would x++ do?</item>
+        <item name="463">this retrieves x, increment and stores the result back to x</item>
+        <item name="464">1</item>
+        <item name="465">How to specify a value in binary? (to assigned to an int for example)</item>
+        <item name="466">use prefix \'0b\' or \'0B\' example int number1 = 0b01010000101000101101000010100010;</item>
+        <item name="467">1</item>
+        <item name="468">What are 5 commonly used Mathematical Methods?</item>
+        <item name="469">Math.pow(double x, double y), .sqrt(double x), .random(), .sin(), .cos()</item>
+        <item name="470">1</item>
+        <item name="471">This is a basic unit of OOP.</item>
+        <item name="472">A class is a unit of this.</item>
+        <item name="473">1</item>
+        <item name="474">What does not destroying a heap\'s objects that are no longer in use lead to in non garbage collected languages?</item>
+        <item name="475">A "memory leak" is created this way.</item>
+        <item name="476">1</item>
+        <item name="477">Naming convention of a variable.</item>
+        <item name="478">this name shall be a noun or noun phrase, first word lowercase, rest camel-case</item>
+        <item name="479">1</item>
+        <item name="480">What is Tab escape sequence?</item>
+        <item name="481">\'\t</item>
+        <item name="482">1</item>
+        <item name="483">This is when a subclass gets all of the variables and methods from its superclasses.</item>
+        <item name="484">Inheritance does this.</item>
+        <item name="485">1</item>
+        <item name="486">What is a char?</item>
+        <item name="487">Represented in 16-bit Unicode \'\u0000\' to \'\uFFFF\'.</item>
+        <item name="488">1</item>
+        <item name="489">What is compound addition and assignment operation?</item>
+        <item name="490">+= operation</item>
+        <item name="491">1</item>
+        <item name="492">What is "step into" for tracing method invocation?</item>
+        <item name="493">enter the method, tracing operations of the method</item>
+        <item name="494">1</item>
+        <item name="495">parts of a do-while loop</item>
+        <item name="496">do { body; } while (test);</item>
+        <item name="497">1</item>
+        <item name="498">Logical OR</item>
+        <item name="499">||</item>
+        <item name="500">1</item>
+        <item name="501">Why to avoid using labeled break and continue?</item>
+        <item name="502">These are un structured and hard to read ways of controlling the flow.</item>
+        <item name="503">1</item>
+        <item name="504">What is the action called that is triggered through a button click or pressing "Enter" key on a TextField</item>
+        <item name="505">actions like these trigger and ActionEvent</item>
+        <item name="506">1</item>
+        <item name="507">UML notation of abstract class and method</item>
+        <item name="508">shown in italic in UML</item>
+        <item name="509">1</item>
+        <item name="510">What will an empty for loop do? for ( ; ; ) { body }</item>
+        <item name="511">this for-loop will run infinitly until broken</item>
+        <item name="512">1</item>
+        <item name="513">Class naming convention.</item>
+        <item name="514">this name shall be a noun beginning with uppercase</item>
+        <item name="515">1</item>
+        <item name="516">What is encapsulation?</item>
+        <item name="517">This is information hiding, not making variables public without good reason.</item>
+        <item name="518">1</item>
+        <item name="519">Name of the parts passed in through a method.</item>
+        <item name="520">an argument is this.</item>
+        <item name="521">1</item>
+        <item name="522">These are some OOP languages.</item>
+        <item name="523">Java, C++ and C# are this type of language.</item>
+        <item name="524">1</item>
+        <item name="525">What must an overriding method have?</item>
+        <item name="526">Must have same argument list. Same return type. Not a more restrictive access.</item>
+        <item name="527">1</item>
+        <item name="528">What is a constructor?</item>
+        <item name="529">This is a special method that has the same method name as the class name.</item>
+        <item name="530">1</item>
+        <item name="531">What is non-circular shifting?</item>
+        <item name="532">This bit shifting shortcoming results in the end positions being cut off.</item>
+        <item name="533">1</item>
+        <item name="534">What is a long?</item>
+        <item name="535">64-bit signed integer The range is [-2^63, 2^63-1] = [-9223372036854775808, +9223372036854775807]</item>
+        <item name="536">1</item>
+        <item name="537">What is an expression?</item>
+        <item name="538">combination of operators such as ( +, -, *, \'/) and operands (variables and literals)</item>
+        <item name="539">1</item>
+        <item name="540">What class defines in Java.</item>
+        <item name="541">This is a definition of objects of the same kind. Defines attributes and behaviors common to all objects of the same kind.</item>
+        <item name="542">1</item>
+        <item name="543">What is a logical error?</item>
+        <item name="544">program completes but produces incorrect results</item>
+        <item name="545">1</item>
+        <item name="546">What is compound multiplication and assignment operation?</item>
+        <item name="547">*=</item>
+        <item name="548">1</item>
+        <item name="549">What is assignment operation?</item>
+        <item name="550">= operation</item>
+        <item name="551">1</item>
+        <item name="552">How to declare an array?</item>
+        <item name="553">int[] marks; // type and name</item>
+        <item name="554">1</item>
+        <item name="555">What is Carriage-return escape sequence?</item>
+        <item name="556">\r</item>
+        <item name="557">1</item>
+        <item name="558">What is a boolean?</item>
+        <item name="559">Binary, Takes a value of either true or false.</item>
+        <item name="560">1</item>
+        <item name="561">What is a byte?</item>
+        <item name="562">8-bit signed integer, The range is [-2^7, 2^7-1] = [-128, 127]</item>
+        <item name="563">1</item>
+        <item name="564">Term for when an invoked method works on a cloned copy of a primitive type parameter.</item>
+        <item name="565">pass-by-value</item>
+        <item name="566">2</item>
+        <item name="567">Has a value that cannot be changed during execution</item>
+        <item name="568">variable declared with keyword "final"</item>
+        <item name="569">2</item>
+        <item name="570">a final class is this.</item>
+        <item name="571">a class that cannot be sub-classed(or extended)</item>
+        <item name="572">2</item>
+        <item name="573">This symbol /</item>
+        <item name="574">Division symbol</item>
+        <item name="575">2</item>
+        <item name="576">What is the difference between "Event-Driven" and "Procedural"?</item>
+        <item name="577">Procedural is executed in a sequential manner while this other waits for an event to trigger a response.</item>
+        <item name="578">2</item>
+        <item name="579">Why would String str1 = new String("Hello"); be a poor way to create a string object?</item>
+        <item name="580">That would bypass the optimization provided by the common pool of the stack by storing it in the heap.</item>
+        <item name="581">2</item>
+        <item name="582">What is compound division and assignment operation?</item>
+        <item name="583">/=</item>
+        <item name="584">2</item>
+        <item name="585">How to use Varargs?</item>
+        <item name="586">public static void doSomething(String... strs) // strs is now an array type</item>
+        <item name="587">2</item>
+        <item name="588">What is "step over" for tracing method invocation?</item>
+        <item name="589">Treat the method call as one single step</item>
+        <item name="590">2</item>
+        <item name="591">What are some usages of a nested class?</item>
+        <item name="592">This can help control visibilities(of variables and methods), make a program clearer, and aid namespace management.</item>
+        <item name="593">2</item>
+        <item name="594">Format of Java portable bytecode after compiling using JDK compiler</item>
+        <item name="595">.class</item>
+        <item name="596">2</item>
+        <item name="597">This symbol +</item>
+        <item name="598">addition symbol, or unary positive</item>
+        <item name="599">2</item>
+        <item name="600">Four rules of a constructor.</item>
+        <item name="601">no return, only invoked via "new" and cannot be called again, are not inherited. Same name as class</item>
+        <item name="602">2</item>
+        <item name="603">What does the java compiler do with imports when compiling to bytecode?</item>
+        <item name="604">this removes all imports and replaces classnames with fully-qualified names</item>
+        <item name="605">2</item>
+        <item name="606">What are Relational Operators?</item>
+        <item name="607">==, !=, >, >=, &lt;, &lt;=</item>
+        <item name="608">2</item>
+        <item name="609">What is method overloading?</item>
+        <item name="610">When there are more than one version of a method with different versions of parameters.</item>
+        <item name="611">2</item>
+        <item name="612">Why is tight encapsulation desired?</item>
+        <item name="613">This gives complete control on how data is to be read and changed.</item>
+        <item name="614">2</item>
+        <item name="615">Why should variables be self descriptive?</item>
+        <item name="616">They\'re not meaningless, and self-document the program</item>
+        <item name="617">2</item>
+        <item name="618">How many kinds of type-casting in java?</item>
+        <item name="619">two types, explicit and implicit</item>
+        <item name="620">2</item>
+        <item name="621">What is a constant?</item>
+        <item name="622">a variable defined with the modifier final.</item>
+        <item name="623">2</item>
+        <item name="624">Why in OO Design should classes be tightly encapsulated, loosely coupled and highly cohesive?</item>
+        <item name="625">this is done so that classes are easy to maintain and suitable for re-use.</item>
+        <item name="626">2</item>
+        <item name="627">What does continue do?</item>
+        <item name="628">this skips the rest of the loop body and goes on to next iteration</item>
+        <item name="629">2</item>
+        <item name="630">Logical XOR, exclusive or</item>
+        <item name="631">^</item>
+        <item name="632">2</item>
+        <item name="633">How to use a for-loop with comma separator</item>
+        <item name="634">for(int i = 0, int x = 100; i != x; i++, x--) multiple statements in initialization and post-post processing</item>
+        <item name="635">2</item>
+        <item name="636">3 compartments of a class</item>
+        <item name="637">Name(Identifier), Variables(Static attributes), Methods(dynamic behaviors)</item>
+        <item name="638">2</item>
+        <item name="639">What is a static variable / method?</item>
+        <item name="640">a variable / method that belongs to the class and is shared by all instances, also called class variable / method</item>
+        <item name="641">2</item>
+        <item name="642">Naming convention of a method.</item>
+        <item name="643">this name shall be a verb denoting an action</item>
+        <item name="644">2</item>
+        <item name="645">This symbol %</item>
+        <item name="646">Remainder (Modulus) symbol</item>
+        <item name="647">2</item>
+        <item name="648">Not Equal to operator</item>
+        <item name="649">!=</item>
+        <item name="650">2</item>
+        <item name="651">What is a labeled break?</item>
+        <item name="652">this breaks out of a specific loop specified with LabelName: loop and if(...) break labelName;</item>
+        <item name="653">2</item>
+        <item name="654">How to inherit multiple interfaces in Java?</item>
+        <item name="655">using implements InterfaceName, InterfaceName</item>
+        <item name="656">2</item>
+        <item name="657">How to declare a char?</item>
+        <item name="658">char letter = \a\'; or char letter = 97; //for a</item>
+        <item name="659">2</item>
+        <item name="660">What does the Logical XOR do?</item>
+        <item name="661">this outputs true if 1 and only 1 of the inputs is true</item>
+        <item name="662">2</item>
+        <item name="663">In substitutability a reference to the class can hold either of these two things.</item>
+        <item name="664">an instance of the class or one of its subclasses can be held, known as this.</item>
+        <item name="665">2</item>
+        <item name="666">What does the keyword "this" do?</item>
+        <item name="667">it resolves ambiguity, allows to set an identifier with the same name as a parameter</item>
+        <item name="668">2</item>
+        <item name="669">What are non-printable control characters?</item>
+        <item name="670">\\n, \\r, \\t, \\\", \\\', \\\, \\uhhhh (example)</item>
+        <item name="671">2</item>
+        <item name="672">A variable must be declared before what?</item>
+        <item name="673">before it is used</item>
+        <item name="674">2</item>
+        <item name="675">Define Operand</item>
+        <item name="676">"the quantity on which an operation is to be done." the numbers in the math.</item>
+        <item name="677">2</item>
+        <item name="678">What is a String literal?</item>
+        <item name="679">composed of zero or more characters surrounded by pair of double quotes, e.g. "Hello, world!";</item>
+        <item name="680">2</item>
+        <item name="681">What is compound subtraction and assignment operation?</item>
+        <item name="682">-= operation</item>
+        <item name="683">2</item>
+        <item name="684">What are the 4 reference types in Java?</item>
+        <item name="685">class, interface, enum and array are of this type</item>
+        <item name="686">2</item>
+        <item name="687">When would a "KeyEvent" be fired to its listeners?</item>
+        <item name="688">When you pressed, released, typed a key.</item>
+        <item name="689">2</item>
+        <item name="690">What does y = x--; do?</item>
+        <item name="691">this is Post-Decrement, use, then decrement.</item>
+        <item name="692">2</item>
+        <item name="693">a final variable is this.</item>
+        <item name="694">a variable that cannot be re-assigned a new value</item>
+        <item name="695">2</item>
+        <item name="696">What is a formal parameter?</item>
+        <item name="697">This is a placeholder in a method definition which is replaced when the method is invoked.</item>
+        <item name="698">2</item>
+        <item name="699">What are Logical operators?</item>
+        <item name="700">!, ^, &amp;&amp;, ||</item>
+        <item name="701">2</item>
+        <item name="702">This is the naming convention for an Interface in java.</item>
+        <item name="703">Use an adjective (typically ending with "able") such as Serializable, Movable, Runnable, etc. to name this type.</item>
+        <item name="704">2</item>
+        <item name="705">a final instance is this.</item>
+        <item name="706">instance that cannot be re-assigned a new object</item>
+        <item name="707">2</item>
+        <item name="708">a final method is this.</item>
+        <item name="709">a method that cannot be overridden.</item>
+        <item name="710">2</item>
+        <item name="711">what does y = x++; do?</item>
+        <item name="712">this is Post-Increment, use the old value of x, then increment x;</item>
+        <item name="713">2</item>
+        <item name="714">what would a try-catch handling do?</item>
+        <item name="715">graceful handling of an exception, continue its operation without abrubt termination</item>
+        <item name="716">2</item>
+        <item name="717">only this type of inheritance is allowed in java</item>
+        <item name="718">Single Inheritance is only allowed in this language</item>
+        <item name="719">2</item>
+        <item name="720">What are primative types?</item>
+        <item name="721">int, double, byte, short, long, float, double, char, boolean</item>
+        <item name="722">2</item>
+        <item name="723">This allows other classes to modify the value of a private variable.</item>
+        <item name="724">A setter method does this.</item>
+        <item name="725">2</item>
+        <item name="726">How does String\'s storage in the stack potentially reduce the storage needed?</item>
+        <item name="727">Stored here these can share a location if they have the same contents.</item>
+        <item name="728">2</item>
+        <item name="729">When would a "WindowEvent" be fired?</item>
+        <item name="730">This is triggered when a window has been opened/closed, activated/deactivated, iconified/deiconified.</item>
+        <item name="731">2</item>
+        <item name="732">What is a String?</item>
+        <item name="733">represents texts (a sequence of characters), not a primitive type</item>
+        <item name="734">2</item>
+        <item name="735">What does method overriding do?</item>
+        <item name="736">when a class doesn\'t use an inherited method and provides its own version</item>
+        <item name="737">2</item>
+        <item name="738">When would a "MouseEvent" be triggered to its Listeners?</item>
+        <item name="739">This is triggered when a user would press, release, or click a mouse button.</item>
+        <item name="740">2</item>
+        <item name="741">The keyword used to derive a subclass of an interface.</item>
+        <item name="742">"implements" is used in this case.</item>
+        <item name="743">2</item>
+        <item name="744">To create an instance of a class you need to...</item>
+        <item name="745">Declare an instance identifier (name it), Construct (allocate storage using "new")</item>
+        <item name="746">2</item>
+        <item name="747">default value for a boolean upon declaration?</item>
+        <item name="748">false is the default value</item>
+        <item name="749">2</item>
+        <item name="750">When a subclass instance is assigned to a superclass reference only these methods can be invoked.</item>
+        <item name="751">only the superclass methods can be invoked in this case unless overridden.</item>
+        <item name="752">2</item>
+        <item name="753">What is the default value for numeric primitive types upon declaration?</item>
+        <item name="754">"zero" is default for these</item>
+        <item name="755">2</item>
+        <item name="756">boolean method naming</item>
+        <item name="757">name start with isVariable().</item>
+        <item name="758">2</item>
+        <item name="759">what does y = --x; do?</item>
+        <item name="760">this is Pre-Decrement, decrement then use.</item>
+        <item name="761">2</item>
+        <item name="762">Three ways to trace method invocation?</item>
+        <item name="763">Step over, step into, step out</item>
+        <item name="764">2</item>
+        <item name="765">OOP lets you do this to solve problems easier.</item>
+        <item name="766">Lets you use software objects to represent and abstract entities of the problem space.</item>
+        <item name="767">2</item>
+        <item name="768">what does y = ++x; do?</item>
+        <item name="769">this is Pre-Increment, Increment x, then use the new value</item>
+        <item name="770">2</item>
+        <item name="771">This allows others to read the value of a private variable, without being able to modify it.</item>
+        <item name="772">A getter method does this.</item>
+        <item name="773">2</item>
+        <item name="774">How would you convert a primitive to a String?</item>
+        <item name="775">To do this you would concatenate the primitive with an empty String.</item>
+        <item name="776">2</item>
+        <item name="777">What has happened if a variable is destroyed and no longer in memory?</item>
+        <item name="778">This means it has been garbage collected.</item>
+        <item name="779">2</item>
+        <item name="780">What is kind of conversion is Implicit type casting always?</item>
+        <item name="781">This is always a widening conversion with prevents loss of precision.</item>
+        <item name="782">2</item>
+        <item name="783">What is overflow?</item>
+        <item name="784">when a resultant value wraps around if it exceeds its range</item>
+        <item name="785">2</item>
+        <item name="786">What are 2 useful constants provided by the Math class?</item>
+        <item name="787">Math.PI and Math.E</item>
+        <item name="788">2</item>
+        <item name="789">Parts of a for-loop</item>
+        <item name="790">for (initialization; test; post-processing){ body; }</item>
+        <item name="791">2</item>
+        <item name="792">What algorithm does a JAR (Java Archive) file use for compression?</item>
+        <item name="793">This uses the famous "zip" algorithm.</item>
+        <item name="794">2</item>
+        <item name="795">Format the Editor or IDE use</item>
+        <item name="796">Source Codes(.java)</item>
+        <item name="797">2</item>
+        <item name="798">What is type-promotion for binary operations?</item>
+        <item name="799">when two types are together in an operand and one is promoted to the other</item>
+        <item name="800">2</item>
+        <item name="801">Baboo is loved by.</item>
+        <item name="802">Dziubeck!</item>
+        <item name="803">2</item>
+        <item name="804">What is a dangling else?</item>
+        <item name="805">an else clause that is syntactically applicable to more than one if</item>
+        <item name="806">2</item>
+        <item name="807">What does variable arguments do?</item>
+        <item name="808">compiler packs these into an array passed into a method</item>
+        <item name="809">2</item>
+        <item name="810">This symbol *</item>
+        <item name="811">Multiplication symbol</item>
+        <item name="812">2</item>
+        <item name="813">Logical NOT</item>
+        <item name="814">!</item>
+        <item name="815">2</item>
+        <item name="816">What does a constructor do?</item>
+        <item name="817">This is used to construct and initialize all the member variables of a class.</item>
+        <item name="818">2</item>
+        <item name="819">This method has no return type and no return statement allowed in its body.</item>
+        <item name="820">A constructor cannot have this statement.</item>
+        <item name="821">2</item>
+        <item name="822">What is Newline or Line-feed escape sequence?</item>
+        <item name="823">\\n</item>
+        <item name="824">2</item>
+        <item name="825">What is underflow?</item>
+        <item name="826">when integer division produces a truncated result such as 1/2 gives 0 instead of 0.5</item>
+        <item name="827">3</item>
+        <item name="828">How to terminate the program?</item>
+        <item name="829">System.exit(1); //0 would mean normal termination, non-zero indicates abnormal termination</item>
+        <item name="830">3</item>
+        <item name="831">What is Explicit type-casting?</item>
+        <item name="832">Using a type-casting operator in the prefix form of (new-type)operand such as d = (double)i;</item>
+        <item name="833">3</item>
+        <item name="834">If no constructor is defined in a class java compiler does this.</item>
+        <item name="835">automatically creates a no-argument(no-arg) constructor that simply issues a super() call in this case.</item>
+        <item name="836">3</item>
+        <item name="837">What property makes an inner class (nested class) useful?</item>
+        <item name="838">this can access private members of the enclosing outer class, and make a program easier to understand.</item>
+        <item name="839">3</item>
+        <item name="840">Parts of a while-do loop</item>
+        <item name="841">while (test){ body; }</item>
+        <item name="842">3</item>
+        <item name="843">What is compound remainder and assignment operation?</item>
+        <item name="844">%=</item>
+        <item name="845">3</item>
+        <item name="846">Polymorphism makes it easy to extend software because..</item>
+        <item name="847">more subclasses can easily be derived to do this.</item>
+        <item name="848">3</item>
+        <item name="849">What is assignment statements?</item>
+        <item name="850">variable = literalValue; or Variable = expression;</item>
+        <item name="851">3</item>
+        <item name="852">This is inside a method body. (unless void)</item>
+        <item name="853">return statement</item>
+        <item name="854">3</item>
+        <item name="855">What is Implicit type-casting?</item>
+        <item name="856">Casting performed by the compiler automatically. d = i;</item>
+        <item name="857">3</item>
+        <item name="858">What does the keyword "super" refer to?</item>
+        <item name="859">this keyword refers to the superclass which could be immediate parent or its ancestor</item>
+        <item name="860">3</item>
+        <item name="861">Declaring a Multi-Dimensional Array.</item>
+        <item name="862">int grid[][] = new int[5][7];</item>
+        <item name="863">3</item>
+        <item name="864">What is unary?</item>
+        <item name="865">consisting of or involving a single component or element</item>
+        <item name="866">3</item>
+        <item name="867">What value is automatically assigned to a reference variable after it is declared?</item>
+        <item name="868">null is assigned when this is declared.</item>
+        <item name="869">3</item>
+        <item name="870">What is a Private(class/variable/method)</item>
+        <item name="871">This is accessible and available within this class only.</item>
+        <item name="872">3</item>
+        <item name="873">Equal to operator.</item>
+        <item name="874">==</item>
+        <item name="875">3</item>
+        <item name="876">The dot (.) operator does this with a method or variable belonging to a class.</item>
+        <item name="877">Used to reference a member variable or method in a class.</item>
+        <item name="878">3</item>
+        <item name="879">What is Varargs?</item>
+        <item name="880">variable arguments.</item>
+        <item name="881">3</item>
+        <item name="882">This symbol -</item>
+        <item name="883">Subtraction symbol, or unary negative</item>
+        <item name="884">3</item>
+        <item name="885">What must an overloading method have?</item>
+        <item name="886">This must have a different argument list.</item>
+        <item name="887">4</item>
+        <item name="888">Front End imports Back End stuff while Back end...</item>
+        <item name="889">Back End never imports front end stuff, front end...</item>
+        <item name="890">0</item>
+        <item name="891"></item>
+        <item name="892"></item>
+        <item name="893">0</item>
+        <item>JSmooth can be used to do this.</item>
+        <item>This can be used to create a runnable exe for java applications.</item>
+        <item>0</item>
+        <item>The Iterative approach to software design is this.</item>
+        <item>This approach to design involves starting basic and adding functionality.</item>
+        <item>0</item>
+        <item>This has three parts: Data, GUI and Logic of the application</item>
+        <item>Model View Controller, is these 3 parts</item>
+        <item>0</item>
+        <item>What is the Observer pattern?</item>
+        <item>This pattern involves the view listening to the model.</item>
+        <item>0</item>
+        <item>The Observer pattern uses these.</item>
+        <item>This pattern makes use of action listeners.</item>
+        <item>0</item>
+        <item>In MVC, controller(logic) gives commands to: </item>
+        <item>This gives commands to Model(data) in MVC.</item>
+        <item>0</item>
+        <item>What is a Bean?</item>
+        <item>This is a transfer object, serializable, encapsulates objects</item>
+        <item>0</item>
+        <item>What is a Data Access Object?</item>
+        <item>This is used to abstract away dealing with database, retrievel / setting / deleting.</item>
+        <item>0</item>
+        <item>What does CRUD stand for?</item>
+        <item>Create, retrieve, update, delete.</item>
+        <item>0</item>
+        <item>This is an important line in UnitTesting.</item>
+        <item>"@Test" and assertEquals("message", value1, value2);</item>
+        <item>0</item>
+        <item>What is the Repository Pattern?</item>
+        <item>This Pattern is used in between logic to do all the sorting, recalling and placing of objects.</item>
+        <item>0</item>
+        <item>This is an Abstract Factory.</item>
+        <item>This creates families of related or dependent objects without specifying their concrete class.</item>
+        <item>0</item>
+        <item>This is a Builder.</item>
+        <item>This is used to avoid telescoping constructors, receives each initialization parameter step by step. Returns constructed object.</item>
+        <item>0</item>
+        <item>This is a Decorator.</item>
+        <item>This adds functionality without changing the class, pass original class into it and use new functionality from "it".</item>
+        <item>0</item>
+        <item>This is a Proxy pattern.</item>
+        <item>This instantiates the real object the first time the client makes a request of it.</item>
+        <item>0</item>
+        <item>A proxy is useful in these three situations.</item>
+        <item>This is useful for expensive to create objects, local representation for objects located elsewhere, can check caller has permissions.</item>
+        <item>0</item>
+        <item>This is a Template Method, Design pattern.</item>
+        <item>A class with abstract methods created to be overridden with real actions, let subclasses implement behavior that can vary.</item>
+        <item>0</item>
+        <item>This is Adaptor Pattern.</item>
+        <item>This is used to convert a different object to an interface that is expected</item>
+        <item>0</item>
+        <item>This is Chain of Responsibility.</item>
+        <item>This helps to avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request.</item>
+        <item>0</item>
+        <item>Strategy or Policy pattern does this.</item>
+        <item>Lets algorithms vary independently from clients that use it, makes algorithms interchangeable.</item>
+        <item>0</item>
+        <item>Bridge Pattern involves this.</item>
+        <item>This pattern involves decoupling an abstraction from its implementation, run time binding</item>
+        <item>0</item>
+        <item>Flyweight pattern does this.</item>
+        <item>This pattern involves minimizing memory use by sharing as much data as possible with similar objects.</item>
+        <item>0</item>
+        <item>Iterator pattern, uses Iterator interface to do this.</item>
+        <item>Java objects use this and are able to be passed in a "for each" loop.</item>
+        <item>0</item>
+        <item>Why might singletons be avoided?</item>
+        <item>This introduces global state, anyone can access them and they couple classes together.</item>
+        <item>0</item>
+        <item>Inheritence can be applied with this keyword.</item>
+        <item>This is applied using extends.</item>
+        <item>0</item>
+        <item>Why are programs using global state hard to test?</item>
+        <item>This makes methods hard to isolate and test.</item>
+        <item>0</item>
+        <item>Mutable means this.</item>
+        <item>This means contents can be changed.</item>
+        <item>0</item>
+    </string-array>
+</resources>

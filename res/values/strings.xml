@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FlashCards</string>
+    <string name="precedesScore">you know: </string>
+    <string name="show_answer">Show Answer</string>
+</resources>
